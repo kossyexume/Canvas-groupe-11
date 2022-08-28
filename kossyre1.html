@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+     <head>
+            <title>Canvas Groupe 11</title>
+
+
+         </head>
+
+       <body>
+           <canvas id="myCanvas" style="width: 800px; height:300px;">
+          </canvas>
+
+
+       <script type="text/javascript">
+          var c=document.getElementById("myCanvas");
+          var ctx=c.getContext("2d");
+        
+       ctx.moveTo (60,40);
+       ctx.lineTo (60,90);
+       ctx.moveTo (110,40);
+       ctx.lineTo (110,90);
+       ctx.moveTo (60,40);
+       ctx.lineTo (110,40);
+        ctx.moveTo (60,90);
+       ctx.lineTo (40,90);
+       ctx.moveTo (40,80);
+       ctx.lineTo (40,90);
+       ctx.moveTo (40,80);
+       ctx.lineTo (25,100);
+       ctx.moveTo (40,120);
+       ctx.lineTo (25,100);
+       ctx.moveTo (40,120);
+       ctx.lineTo (40,110);
+       ctx.moveTo (60,110);
+       ctx.lineTo (40,110);
+       ctx.moveTo (60,110);
+       ctx.lineTo (60,150);
+       ctx.moveTo (110,150);
+       ctx.lineTo (60,150);
+       ctx.moveTo (110,150);
+       ctx.lineTo (110,110);
+       ctx.moveTo (130,110);
+       ctx.lineTo (110,110);
+       ctx.moveTo (130,110);
+       ctx.lineTo (130,120);
+       ctx.moveTo (130,90);
+       ctx.lineTo (110,90);
+       ctx.moveTo (130,90);
+       ctx.lineTo (130,80);
+       ctx.moveTo (150,100);
+       ctx.lineTo (130,80);
+       ctx.moveTo (150,100);
+       ctx.lineTo (130,120);
+       ctx.closePath();
+       ctx.lineWidth=2;
+       ctx.fillStyle="red";
+       ctx.fill();
+       ctx.strokeStyle ="red";
+       ctx.stroke(); 
+</script>
+
+</body>
+</html>
